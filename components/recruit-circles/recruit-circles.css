@@ -1,0 +1,83 @@
+.recruit__circles {
+  aspect-ratio: 1200/592;
+  height: auto;
+  margin: 40px auto 0;
+  max-width: 75rem;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.recruit__bg-circle {
+  background-image: url(../images/common/bg_circles.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0;
+  height: 100%;
+  left: 50%;
+  margin: auto;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(-50%);
+  width: 75rem;
+  z-index: 0;
+}
+
+.recruit__circle-flex {
+  align-items: center;
+  display: flex;
+  gap: 6.6666666667%;
+  height: 100%;
+  justify-content: space-evenly;
+  overflow-x: clip;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: relative;
+  width: 100%;
+}
+
+.recruit__job-type {
+  color: #fff;
+  max-width: 23.4375rem;
+}
+
+.recruit__job-image {
+  aspect-ratio: 246/140;
+  margin: 0 auto;
+  max-width: 15.375rem;
+  width: 100%;
+}
+
+.recruit__job-image img {
+  display: block;
+  height: auto;
+  object-fit: contain;
+  width: 100%;
+}
+
+.recruit__job-labels {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1.125rem;
+}
+
+.recruit__job-label {
+  background-color: #fff;
+  border-radius: 20px;
+  color: #007cc8;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+}
+
+.recruit__job-description {
+  font-weight: 700;
+  line-height: 2.25;
+  margin-top: 1.125rem;
+}
